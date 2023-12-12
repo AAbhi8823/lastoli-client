@@ -1,0 +1,71 @@
+.DeliveryAddress {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    padding: 20px 20px;
+    position: relative;
+    background-color: pink;
+}
+
+.leftaddress-inputbox {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(233, 233, 218);
+}
+
+.item-subtotalbox {
+    margin: 0px 2%;
+    height: 40%;
+    width: 30%;
+    background-color: #F7F7F7;
+}
+
+.top-element-loinglink {
+    display: flex;
+    justify-content: space-evenly;
+    width:90%;
+    position: relative;
+    height: 10%;
+}
+
+.top-element-Contact {
+    position: absolute;
+    left: 5%;
+}
+
+.top-element-login {
+    position: absolute;
+    right: 2%;
+}
+.form-section{
+    display: flex;
+}
+.form-sectiuon{
+    height: 90%;
+}
+.email-section{
+    margin: 10px 20px;
+    width: 90%;
+    height: 6%;
+    border-radius: 5px;
+    border-color: navajowhite;
+    
+}
+.checkbox-section{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+    background-color: palegoldenrod;
+}
+.checkbox-section input{
+    width: 5%;
+    
+}
+.checkbox-section p{
+    font-size: medium;
+    font-weight: 500;
+    color: #575454;
+}
+.Shipping-addres{
+    display: flex;
+}

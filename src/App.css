@@ -1,0 +1,15 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../public//Century\ Gothic/CenturyGothic.ttf);
+    src: url(../public//Century\ Gothic/GOTHIC.TTF);
+    src: url(../public//Century\ Gothic/gothicb.ttf);
+    src: url(../public//Century\ Gothic/gothicb.ttf);
+}
+.App{
+    /* padding:15px 15px; */
+    height:auto;
+    width: 100%;
+    font-family: CenturyGothic;
+    font-weight: bold;
+    background-color: #FFFFFF
+}

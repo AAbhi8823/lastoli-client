@@ -1,0 +1,166 @@
+/* General styling for the sign-in container */
+.Signin {
+    background-color: #f8f8f8;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    outline: solid 5px #ebd6d6;
+  }
+  
+  /* Styling for the left banner */
+  .leftbanner {
+    width: 50%;
+    height: 100%;
+    border-right: solid;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling for the main login section */
+  .login-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Styling for the phone input and country code selection */
+  .login-section-item {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: auto;
+  }
+  
+  #countryCode {
+    margin: 10px 1px;
+    padding: 10px;
+  }
+  
+  #phoneNumber {
+    margin: 20px 1px;
+    padding: 10px 10px;
+    border-color: #f8f8f8;
+    border-radius: 3px;
+  }
+  
+  /* Styling for the "Get OTP" button */
+  .get-topbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 70%;
+  }
+  
+  .get-topbutton button {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-color: #ebd6d6;
+    color: #000;
+    font-family: CenturyGothic;
+  }
+  
+  .get-topbutton button:hover {
+    background-color: #e8dddd;
+  }
+  
+  /* Styling for the divider line */
+  .line {
+    margin: 10px 10px;
+    white-space: pre-wrap;
+  }
+  
+  /* Styling for the "Login with Email" button */
+  .login-with-email {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+  }
+  
+  .login-with-email button {
+    background-color: #fff;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+    border-color: #ebd6d6;
+  }
+  
+  .login-with-email button:hover {
+    background-color: #e8dddd;
+  }
+  
+  /* Styling for the main login popup container */
+  .login-popup {
+    display: flex;
+    position: fixed;
+    height: 50vh;
+    width: 50vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    z-index: 20;
+  }
+  
+  /* Styling for the cancel button */
+  .cancel-button {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    border-radius: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-width: 5px;
+    border-color: #ffffff;
+  }
+  
+  /* Styling for the background overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+    backdrop-filter: blur(8px);
+    display: none;
+  }
+  
+  /* Show the overlay when the SignIn popup is open */
+  .login-popup + .overlay {
+    display: block;
+  }
+  
+  /* Styling for the email login section */
+  .login-section-item-email {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  
+  /* Styling for email and password input fields */
+  .login-section-item-email input[type="email" i],
+  .login-section-item-email input[type="password" i] {
+    margin: 10px 1px;
+    padding: 10px 10px;
+    border-color: #f8f8f8;
+    border-radius: 3px;
+  }
+  

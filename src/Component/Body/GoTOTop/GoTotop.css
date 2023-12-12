@@ -1,0 +1,35 @@
+.scroll-to-top-button {
+   
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2e2e2e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    height: 55px;
+    width: 55px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top-button.visible {
+    display: block;
+  }
+  
+  /* You can customize the button's appearance here */
+  
+  FaArrowCircleUp{
+    color: red;
+  }
+  .upp{
+    font-size: 15px;
+    
+  }
+  .upp svg{
+    font-size: 35px;
+  }
